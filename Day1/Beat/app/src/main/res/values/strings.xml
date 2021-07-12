@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Beat</string>
+    <string name="edit_message">输入图中文字拼音有惊喜</string>
+    <string name="button_send">发送</string>
+    <string name="happy">你快乐吗</string>
+    <string name="yes">我很快乐</string>
+    <string name="sw_color">就是要花里胡哨</string>
+    <string name="choice3_1">手机型号：</string>
+    <string name="Android">Android</string>
+    <string name="IOS">IOS</string>
+    <string name="WP">Windows Phone</string>
+</resources>
