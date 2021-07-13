@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="act1">PracticeActivity</string>
+    <string name="act2">百度</string>
+    <string name="act3">电话拨号</string>
+    <string name="act0">Button</string>
+    <string name="time">2021-07-14  获得</string>
+    <string name="title">坐姿模范生</string>
+    <string name="congratulation">恭喜你成为大力自习室中最优秀的坐姿模范生</string>
+    <string name="index">表扬次数 50/50 次</string>
+    <string name="btn_study">去自习</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_douyin">douyin</string>
+    <string name="hot">热搜榜</string>
+    <string name="good">正能量</string>
+    <string name="douyin">抖音热搜</string>
+</resources>
