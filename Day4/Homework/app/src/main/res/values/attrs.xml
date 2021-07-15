@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <!--表盘颜色-->
+        <attr name="mClockColor" format = "color"/>
+        <!--字体-->
+        <attr name="mTexColor" format="color"/>
+        <attr name="mTexSize" format="dimension"/>
+    </declare-styleable>
+</resources>
