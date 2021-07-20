@@ -2,17 +2,16 @@ package com.example.meiaapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
-
+import android.view.GestureDetector;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
-public class VideoActivity extends AppCompatActivity {
+public class OnlineActivity extends AppCompatActivity {
 
     VideoView videoView;
     String mockUrl = "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4";
@@ -23,14 +22,6 @@ public class VideoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video);
         init();
-
-        Intent intent = getIntent();
-
-        String action = intent.getAction();
-        if (intent.ACTION_VIEW.equals(action)) {
-            Uri uri = intent.getData();
-            mockUrl = Uri.decode(uri.getEncodedPath());
-        }
     }
 
     private void init() {
